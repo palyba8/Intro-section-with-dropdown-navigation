@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="container">
+        <img class="logo" src="images/logo.svg" alt="logo">
+        <nav class="nav-menu">
+            <div class="menu-main">
+                <ul>
+                    <li class="dropdown-menu"><span class="arrow"></span><a href="#">Features</a>
+                        <ul class="menu-sub">
+                            <li><a href="#"><img src="images/icon-todo.svg" alt="Todo"> Todo List</a></li>
+                            <li><a href="#"><img src="images/icon-calendar.svg" alt="Calendar"> Calendar</a>
+                            </li>
+                            <li><a href="#"><img src="images/icon-reminders.svg" alt="Reminders"> Reminders</a>
+                            </li>
+                            <li><a href="#"><img src="images/icon-planning.svg" alt="Planning"> Planning</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li  class="dropdown-menu"><span class="arrow"></span><a href="#">Company</a>
+                        <ul class="menu-sub">
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="menu-right">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a class="registration" href="#">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="menu-toggle">
+        <div class="hamburger"></div>
+    </div>
+    <div class="bg-shadow"></div>
+    <main>
+        <div class="container">
+            <div class="hero">
+                <div class="container">
+                    <h1>Make<br> remote work</h1>
+                    <p>Get your team in sync, no matter your location.<br> Streamline processes,
+                        create team rituals, and <br> watch productivity soar.</p>
+                    <button>Learn more</button>
+                    <div>
+                        <ul class="clients">
+                            <li><img src="images/client-databiz.svg" alt="databiz"> </li>
+                            <li><img src="images/client-audiophile.svg" alt="audiophile"> </li>
+                            <li><img src="images/client-meet.svg" alt="meet"> </li>
+                            <li><img src="images/client-maker.svg" alt="maker"> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="hero-desct" src="images/image-hero-desktop.png" alt="men with notebook">
+                    <img class="hero-mobil" src="images/image-hero-mobile.png" alt="men with notebook">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Your Name Here</a>.
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

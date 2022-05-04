@@ -116,7 +116,7 @@ nav li a:hover {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-image: url(/images/icon-arrow-down.svg);
+    background-image: url(../images/icon-arrow-down.svg);
     background-repeat: no-repeat;
     background-position: right;
     right: -17px;
@@ -124,7 +124,7 @@ nav li a:hover {
 }
 
 .arrow-up {
-    background: url(/images/icon-arrow-up.svg);
+    background: url(../images/icon-arrow-up.svg);
     background-repeat: no-repeat;
     background-position: right;
     right: -17px;
